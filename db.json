@@ -2,15 +2,68 @@
   "product": [
     {
       "id": 1,
-      "title": "상품명 1"
+      "productTYpe": "child",
+      "title": "어린이 체험관",
+      "description": "공공필요에 의한 재산권의 수용·사용 또는 제한 및 그에 대한 보상은 법률로써 하되, 정당한 보상을 지급하여야 한다. 모든 국민은 근로의 권리를 가진다. 국가는 사회적·경제적 방법으로 근로자의 고용의 증진과 적정임금의 보장에 노력하여야 하며, 법률이 정하는 바에 의하여 최저임금제를 시행하여야 한다.\\n\\n      국가안전보장회의의 조직·직무범위 기타 필요한 사항은 법률로 정한다. 국회는 국민의 보통·평등·직접·비밀선거에 의하여 선출된 국회의원으로 구성한다.\\n      \\n      대한민국은 민주공화국이다. 국방상 또는 국민경제상 긴절한 필요로 인하여 법률이 정하는 경우를 제외하고는, 사영기업을 국유 또는 공유로 이전하거나 그 경영을 통제 또는 관리할 수 없다.\\n      \\n      대한민국의 국민이 되는 요건은 법률로 정한다. 국가안전보장회의는 대통령이 주재한다. 정당은 법률이 정하는 바에 의하여 국가의 보호를 받으며, 국가는 법률이 정하는 바에 의하여 정당운영에 필요한 자금을 보조할 수 있다.\\n      \\n      대통령은 내란 또는 외환의 죄를 범한 경우를 제외하고는 재직중 형사상의 소추를 받지 아니한다. 헌법재판소 재판관의 임기는 6년으로 하며, 법률이 정하는 바에 의하여 연임할 수 있다.\\n      \\n      농업생산성의 제고와 농지의 합리적인 이용을 위하거나 불가피한 사정으로 발생하는 농지의 임대차와 위탁경영은 법률이 정하는 바에 의하여 인정된다.\\n      \\n      대통령은 국가의 독립·영토의 보전·국가의 계속성과 헌법을 수호할 책무를 진다. 한 회계연도를 넘어 계속하여 지출할 필요가 있을 때에는 정부는 연한을 정하여 계속비로서 국회의 의결을 얻어야 한다.",
+      "price": 18000,
+      "guardianPrice": 9000,
+      "timeTable": [
+        {
+          "key": "t1",
+          "startTime": "09:30",
+          "endTime": "13:30",
+          "maxAudience": 100
+        },
+        {
+          "key": "t2",
+          "startTime": "14:30",
+          "endTime": "18:30",
+          "maxAudience": 100
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "상품명 2"
+      "productTYpe": "child",
+      "title": "키즈 패키지",
+      "description": "Lorem ipsum dolor sit amet, consectetur  dignissimos suscipit voluptatibus distinctio, error nostrum expedita omnis ipsum sit inventore aliquam sunt quam quis! ",
+      "price": 18000,
+      "guardianPrice": 9000,
+      "timeTable": []
     },
     {
       "id": 3,
-      "title": "상품명 3"
+      "productTYpe": "child",
+      "title": "친구끼리 패키지",
+      "description": "Lorem ipsum dolor sit amet, consectetur  dignissimos suscipit voluptatibus distinctio, error nostrum expedita omnis ipsum sit inventore aliquam sunt quam quis!",
+      "price": 18000,
+      "guardianPrice": 9000,
+      "timeTable": []
+    },
+    {
+      "id": 4,
+      "productTYpe": "child",
+      "title": "제휴 패키지",
+      "description": "Lorem ipsum dolor sit amet, consectetur  dignissimos suscipit voluptatibus distinctio, error nostrum expedita omnis ipsum sit inventore aliquam sunt quam quis!",
+      "product_type": "power set/diesel engine",
+      "price": 18000,
+      "guardianPrice": 9000,
+      "timeTable": []
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
