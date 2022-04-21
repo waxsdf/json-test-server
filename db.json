@@ -29,7 +29,20 @@
       "description": "Lorem ipsum dolor sit amet, consectetur  dignissimos suscipit voluptatibus distinctio, error nostrum expedita omnis ipsum sit inventore aliquam sunt quam quis! ",
       "price": 18000,
       "guardianPrice": 9000,
-      "timeTable": []
+      "timeTable": [
+        {
+          "key": "t1",
+          "startTime": "09:30",
+          "endTime": "13:30",
+          "maxAudience": 100
+        },
+        {
+          "key": "t2",
+          "startTime": "14:30",
+          "endTime": "18:30",
+          "maxAudience": 100
+        }
+      ]
     },
     {
       "id": 3,
@@ -38,7 +51,20 @@
       "description": "Lorem ipsum dolor sit amet, consectetur  dignissimos suscipit voluptatibus distinctio, error nostrum expedita omnis ipsum sit inventore aliquam sunt quam quis!",
       "price": 18000,
       "guardianPrice": 9000,
-      "timeTable": []
+      "timeTable": [
+        {
+          "key": "t1",
+          "startTime": "09:30",
+          "endTime": "13:30",
+          "maxAudience": 100
+        },
+        {
+          "key": "t2",
+          "startTime": "14:30",
+          "endTime": "18:30",
+          "maxAudience": 100
+        }
+      ]
     },
     {
       "id": 4,
@@ -48,7 +74,20 @@
       "product_type": "power set/diesel engine",
       "price": 18000,
       "guardianPrice": 9000,
-      "timeTable": []
+      "timeTable": [
+        {
+          "key": "t1",
+          "startTime": "09:30",
+          "endTime": "13:30",
+          "maxAudience": 100
+        },
+        {
+          "key": "t2",
+          "startTime": "14:30",
+          "endTime": "18:30",
+          "maxAudience": 100
+        }
+      ]
     }
   ],
   "comments": [
